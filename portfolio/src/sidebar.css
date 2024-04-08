@@ -147,19 +147,19 @@ body {
     display: flex;
     margin: 2px;
     transition: width 0.3s ease-in-out;
-    position: fixed;
-    overflow: scroll;
+    position: absolute;
+    overflow: auto;
     scroll-behavior: smooth;
-    width:  auto;
-    height: auto;
-    left: 270px;
-    top: 280px;
+    width:  fit-content;
+    height: fit-content;
+    left: 265px;
+    top: 270px;
     right: 20px;
     bottom: 20px;
     opacity: 1;
     /* justify-content: left; */
     transform: translatex(0);
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     flex-grow: 1;
     flex-basis: 200;

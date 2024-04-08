@@ -237,7 +237,7 @@ function Sidebar(){
                 <h2>Prakhar Tripathi</h2>
             </div>
 
-            <div className="container-fluid">
+            <div className="container">
             <div className='mainbar-container'>
      <div className="child-div"><h3><span className="shrink .sidebar-listItemText">FrontEnd</span></h3>
      <div><br></br></div>
