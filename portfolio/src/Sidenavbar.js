@@ -29,7 +29,7 @@ function Sidebar(){
         
         
     return(
-     <div className="container">
+     <div className="container-fluid">
              <div className={`sidebar-container${isShrinkView ? " shrink" : ""}`}>
       {/* Sidebar view toggle button */}
       <button
@@ -50,7 +50,7 @@ function Sidebar(){
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
-          class="feather feather-chevron-left"
+          className="feather feather-chevron-left"
         >
           <polyline points="15 18 9 12 15 6" />
         </svg>
