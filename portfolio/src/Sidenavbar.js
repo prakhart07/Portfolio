@@ -169,7 +169,45 @@ function Sidebar(){
           Projects
 
           <li className="sidebar-listItem active">
-            <a style={{ textDecoration: 'none' }} href="https://github.com/shiksha-bharat/CDACProject.git" target="_blank" rel="noopener noreferrer">
+            <a href="https://web-it-new.vercel.app">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="sidebar-listIconProject"
+              >
+                <rect x="3" y="3" rx="2" ry="2" className="sidebar-listIcon" />
+                <path d="M3 9h18M9 21V9" />
+              </svg>
+              <span className="sidebar-listItemText">IT Website</span>
+            </a>
+            
+          </li>
+          <li className="sidebar-listItem active">
+            <a href="https://femoungg.vercel.app/">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="sidebar-listIconProject"
+              >
+                <rect x="3" y="3" rx="2" ry="2" className="sidebar-listIcon" />
+                <path d="M3 9h18M9 21V9" />
+              </svg>
+              <span className="sidebar-listItemText">Restaurant Website</span>
+            </a>
+            
+          </li>
+          <li className="sidebar-listItem active">
+            <a style={{ textDecoration: 'none' }} href="https://shiksha-bharat-portal.vercel.app" target="_blank" rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -189,7 +227,7 @@ function Sidebar(){
           </li>
 
           <li className="sidebar-listItem active">
-            <a>
+            <a href="#home">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -240,9 +278,9 @@ function Sidebar(){
             <div className="container">
             <div className='mainbar-container'>
      <div className="child-div"><h3><span className="shrink .sidebar-listItemText">FrontEnd</span></h3>
-     <div><br></br></div>
-     <div></div>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+     <div className="container">
+     <div className="row">
+     <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="htmlcss-icon">
                             <div><text>HTML&CSS</text></div>
                         </div>
@@ -258,20 +296,12 @@ function Sidebar(){
                         </div>
             </div>
      </div>
+     </div>      
+     </div>
 
      <div className="child-div"><h3><span className="shrink .sidebar-listItemText">BackEnd</span></h3>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
-                        <div className="spring-icon">
-                            <div><text>SpringBoot</text></div>
-                        </div>
-            </div>
-            
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
-                        <div className="dotnet-icon">
-                            <div><text>MS.NET</text></div>
-                        </div>
-            </div>
-            
+     <div className="container">
+      <div className="row">
             <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="nodejs-icon">
                             <div><text>Node.Js</text></div>
@@ -282,11 +312,31 @@ function Sidebar(){
                             <div><text>Express.Js</text></div>
                         </div>
             </div>
+            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+                        <div className="java-icon">
+                            <div><text>Java</text></div>
+                        </div>
+            </div>
+            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+                        <div className="dotnet-icon">
+                            <div><text>MS.NET</text></div>
+                        </div>
+            </div>
+      </div>
+     </div>
+            
      </div>
      <div className="child-div"><h3><span className="shrink .sidebar-listItemText">Database</span></h3>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+     <div className="container">
+      <div className="row">
+      <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="mysql-icon">
                             <div><text>MySQL</text></div>
+                        </div>
+            </div>
+            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+                        <div className="mssql-icon">
+                            <div><text>MSSQL</text></div>
                         </div>
             </div>
             <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
@@ -294,10 +344,25 @@ function Sidebar(){
                             <div><text>MongoDB</text></div>
                         </div>
             </div>
+      </div>
+     </div>
+            
             
      </div>
      <div className="child-div"><h3><span className="shrink .sidebar-listItemText">Devops</span></h3>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+     <div className="container">
+      <div className="row">
+      <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+                        <div className="aws-icon">
+                            <div><text>AWS EC2</text></div>
+                        </div>
+            </div>
+      <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+                        <div className="awsrds-icon">
+                            <div><text>AWS RDS</text></div>
+                        </div>
+            </div>      
+      <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="docker-icon">
                             <div><text>Docker</text></div>
                         </div>
@@ -308,47 +373,45 @@ function Sidebar(){
                         </div>
             </div>
             <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
-                        <div className="aws-icon">
-                            <div><text>AWS EC2</text></div>
-                        </div>
-            </div>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="jenkins-icon">
                             <div><text>Jenkins</text></div>
                         </div>
             </div>
-
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+      </div>
+     </div>     
+     </div>
+      
+     <div className="child-div"><h3><span className="shrink .sidebar-listItemText">Other</span></h3>
+     <div className="container">
+      <div className="row">
+      <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="git-icon">
                             <div><text>Git</text></div>
                         </div>
             </div>
-     </div>
-
-     <div className="child-div"><h3><span className="shrink .sidebar-listItemText">Other</span></h3>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
-                        <div className="java-icon">
-                            <div><text>Java Core</text></div>
+     <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+                        <div className="spring-icon">
+                            <div><text>SpringBoot</text></div>
                         </div>
             </div>
             <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="rest-icon">
-                            <div><text>REST Api</text></div>
+                        <div><text>REST Api</text></div>
                         </div>
+                        
             </div>
-            {/* <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
-                        <div className="htmlcss-icon">
-                            <div><text>React.JS</text></div>
+            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+                        <div className="bootstrap-icon">
+                        <div><text>BootStrap</text></div>
                         </div>
-            </div> */}
+                        
+            </div>
+      </div>
+     </div>
      </div>
                 </div>
             </div>
-             
             </div>
-            
-    
-
     </div>   
         
     );

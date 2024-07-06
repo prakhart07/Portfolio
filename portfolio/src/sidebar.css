@@ -126,14 +126,16 @@ body {
 
 .aboutmephoto{
     flex: 1;
-    /* border: 1px solid #ccc; */
-    margin-bottom: 5px; /* Add some margin for spacing between divs */
+    border: 1px solid #121212;
+    margin-bottom: 10px; /* Add some margin for spacing between divs */
     padding: 5px; /* Add padding for content inside the divs */
     box-sizing: border-box;
     background-color: #0077B5;
     background-image:url(Images/Prakhar.png);
     background-size: contain; /* Adjust the sizing method as needed */
     background-repeat: no-repeat;
+    height: 400px;
+    
     
 }
 
@@ -662,6 +664,27 @@ body {
     text-align: center;
   }
 
+  .mssql-icon {
+    background-color: var(--main-container-bg);
+    box-shadow: var(--container-shadow);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    transition: width 0.3s ease-in-out;
+    position: relative;
+    display: flex; /*inline-block*/
+    width: 240px; /* 20vw; 240px*/
+    height: 165px; /* 11.25vw; 135px*/
+    left: 10px;
+    /* top: 50px; */
+    background-image:url(/src/Images/mssql-icon1.png);
+    background-size: contain; /* Adjust the sizing method as needed */
+    background-repeat: no-repeat;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
   .mongodb-icon {
     background-color: var(--main-container-bg);
     box-shadow: var(--container-shadow);
@@ -746,6 +769,27 @@ body {
     text-align: center;
   }
 
+  .awsrds-icon {
+    background-color: var(--main-container-bg);
+    box-shadow: var(--container-shadow);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    transition: width 0.3s ease-in-out;
+    position: relative;
+    display: flex; /*inline-block*/
+    width: 240px; /* 20vw; 240px*/
+    height: 165px; /* 11.25vw; 135px*/
+    left: 10px;
+    /* top: 50px; */
+    background-image:url(/src/Images/rds.jpg);
+    background-size: contain; /* Adjust the sizing method as needed */
+    background-repeat: no-repeat;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
   .jenkins-icon {
     background-color: var(--main-container-bg);
     box-shadow: var(--container-shadow);
@@ -823,6 +867,27 @@ body {
     left: 10px;
     /* top: 50px; */
     background-image:url(/src/Images/restapi.svg);
+    background-size: contain; /* Adjust the sizing method as needed */
+    background-repeat: no-repeat;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bootstrap-icon {
+    background-color: var(--main-container-bg);
+    box-shadow: var(--container-shadow);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    transition: width 0.3s ease-in-out;
+    position: relative;
+    display: flex; /*inline-block*/
+    width: 240px; /* 20vw; 240px*/
+    height: 165px; /* 11.25vw; 135px*/
+    left: 10px;
+    /* top: 50px; */
+    background-image:url(/src/Images/bootstrap-stack.png);
     background-size: contain; /* Adjust the sizing method as needed */
     background-repeat: no-repeat;
     flex-direction: column-reverse;
