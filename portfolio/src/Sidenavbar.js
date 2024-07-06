@@ -207,6 +207,25 @@ function Sidebar(){
             
           </li>
           <li className="sidebar-listItem active">
+            <a href="https://horizontepolaris.com/en">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="sidebar-listIconProject"
+              >
+                <rect x="3" y="3" rx="2" ry="2" className="sidebar-listIcon" />
+                <path d="M3 9h18M9 21V9" />
+              </svg>
+              <span className="sidebar-listItemText">Construction Website</span>
+            </a>
+            
+          </li>
+          <li className="sidebar-listItem active">
             <a style={{ textDecoration: 'none' }} href="https://shiksha-bharat-portal.vercel.app" target="_blank" rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
