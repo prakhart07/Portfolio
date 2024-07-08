@@ -298,134 +298,134 @@ function Sidebar(){
             <div className='mainbar-container'>
      <div className="child-div"><h3><span className="shrink .sidebar-listItemText">FrontEnd</span></h3>
      <div className="container">
-     <div className="row">
-     <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+     {/* <div className="row"> */}
+     <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="htmlcss-icon">
                             <div><text>HTML&CSS</text></div>
                         </div>
             </div>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+            <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="javascript-icon">
                             <div><text>JavaScript</text></div>
                         </div>
             </div>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+            <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="react-icon">
                             <div><text>React.JS</text></div>
                         </div>
             </div>
-     </div>
+     {/* </div> */}
      </div>      
      </div>
 
      <div className="child-div"><h3><span className="shrink .sidebar-listItemText">BackEnd</span></h3>
      <div className="container">
-      <div className="row">
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+      {/* <div className="row"> */}
+            <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="nodejs-icon">
                             <div><text>Node.Js</text></div>
                         </div>
             </div>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+            <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="express-icon">
                             <div><text>Express.Js</text></div>
                         </div>
             </div>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+            <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="java-icon">
                             <div><text>Java</text></div>
                         </div>
             </div>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+            <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="dotnet-icon">
                             <div><text>MS.NET</text></div>
                         </div>
             </div>
-      </div>
+      {/* </div> */}
      </div>
             
      </div>
      <div className="child-div"><h3><span className="shrink .sidebar-listItemText">Database</span></h3>
      <div className="container">
-      <div className="row">
-      <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+      {/* <div className="row"> */}
+      <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="mysql-icon">
                             <div><text>MySQL</text></div>
                         </div>
             </div>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+            <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="mssql-icon">
                             <div><text>MSSQL</text></div>
                         </div>
             </div>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+            <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="mongodb-icon">
                             <div><text>MongoDB</text></div>
                         </div>
             </div>
-      </div>
+      {/* </div> */}
      </div>
             
             
      </div>
      <div className="child-div"><h3><span className="shrink .sidebar-listItemText">Devops</span></h3>
      <div className="container">
-      <div className="row">
-      <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+      {/* <div className="row"> */}
+      <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="aws-icon">
                             <div><text>AWS EC2</text></div>
                         </div>
             </div>
-      <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+      <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="awsrds-icon">
                             <div><text>AWS RDS</text></div>
                         </div>
             </div>      
-      <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+      <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="docker-icon">
                             <div><text>Docker</text></div>
                         </div>
             </div>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+            <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="kubernetes-icon">
                             <div><text>Kubernetes</text></div>
                         </div>
             </div>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+            <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="jenkins-icon">
                             <div><text>Jenkins</text></div>
                         </div>
             </div>
-      </div>
+      {/* </div> */}
      </div>     
      </div>
       
      <div className="child-div"><h3><span className="shrink .sidebar-listItemText">Other</span></h3>
      <div className="container">
-      <div className="row">
-      <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+      {/* <div className="row"> */}
+      <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="git-icon">
                             <div><text>Git</text></div>
                         </div>
             </div>
-     <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+     <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="spring-icon">
                             <div><text>SpringBoot</text></div>
                         </div>
             </div>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+            <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="rest-icon">
                         <div><text>REST Api</text></div>
                         </div>
                         
             </div>
-            <div style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+            <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="bootstrap-icon">
                         <div><text>BootStrap</text></div>
                         </div>
                         
             </div>
-      </div>
+      {/* </div> */}
      </div>
      </div>
                 </div>
