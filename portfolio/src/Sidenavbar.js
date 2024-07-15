@@ -169,7 +169,7 @@ function Sidebar(){
           Projects
 
           <li className="sidebar-listItem active">
-            <a href="https://web-it-new.vercel.app">
+            <a style={{ textDecoration: 'none' }} href="https://web-it-new.vercel.app" target="_blank" rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -188,7 +188,7 @@ function Sidebar(){
             
           </li>
           <li className="sidebar-listItem active">
-            <a href="https://femoungg.vercel.app/">
+            <a style={{ textDecoration: 'none' }} href="https://femoungg.vercel.app/" target="_blank" rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -207,7 +207,7 @@ function Sidebar(){
             
           </li>
           <li className="sidebar-listItem active">
-            <a href="https://horizontepolaris.com/en">
+            <a style={{ textDecoration: 'none' }} href="https://horizontepolaris.com/en" target="_blank" rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -221,7 +221,7 @@ function Sidebar(){
                 <rect x="3" y="3" rx="2" ry="2" className="sidebar-listIcon" />
                 <path d="M3 9h18M9 21V9" />
               </svg>
-              <span className="sidebar-listItemText">Construction Website</span>
+              <span className="sidebar-listItemText">Horizontepolaris</span>
             </a>
             
           </li>
