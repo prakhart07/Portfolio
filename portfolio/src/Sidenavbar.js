@@ -310,6 +310,11 @@ function Sidebar(){
                         </div>
             </div>
             <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
+                        <div className="typescript-icon">
+                            <div><text>TypeScript</text></div>
+                        </div>
+            </div>
+            <div className="col-sm" style={{width:"245px",margin:"5px",marginTop:"40px"}}>
                         <div className="react-icon">
                             <div><text>React.JS</text></div>
                         </div>

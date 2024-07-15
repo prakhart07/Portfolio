@@ -242,6 +242,28 @@ body {
     align-items: center;
     text-align: center;
   }
+
+  .typescript-icon {
+    background-color: var(--main-container-bg);
+    box-shadow: var(--container-shadow);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    transition: width 0.3s ease-in-out;
+    position: relative;
+    display: flex; /*inline-block*/
+    width: 240px; /* 20vw; 240px*/
+    height: 165px; /* 11.25vw; 135px*/
+    left: 10px;
+    /* top: 50px; */
+    background-image:url(/src/Images/ts.png);
+    background-size: contain; /* Adjust the sizing method as needed */
+    background-repeat: no-repeat;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
   .textdiv{
     border-radius: 2px;
     background-color: var(--main-container-bg);
