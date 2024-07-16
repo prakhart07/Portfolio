@@ -18,10 +18,16 @@ function AboutMe(){
           
             <div className='aboutmephoto'>
             <div className="name">
-              <div>
-              <span>Current Company:IncubXperts</span>
+            <div className='desc'>
+              <span>Education: PGD-Advance Computing,B.E.(Civil)</span>
               </div>
-              <div>
+              <div className='desc'>
+              <span>Alma mater: Sunbeam Pune(CDAC), RGPV(BE)</span>
+              </div>
+              <div className='desc'>
+              <span>Current Company:IncubXperts,Pune(M.H.),India.</span>
+              </div>
+              <div className='desc'>
               <span>Designation: Software Engineer(MERN Stack)</span>
               </div>
             </div>
@@ -37,16 +43,16 @@ function AboutMe(){
               <div className="child-div">
                 <div className="">
                 <h2>Prakhar Tripathi
-                    <h6>Full-Stack Developer</h6>
+                    <h6>MERN-Stack Developer</h6>
                     </h2>
                     
                     <p>Hello! I'm Prakhar, a dedicated software developer with a passion for crafting efficient and innovative solutions to complex problems. I thrive in the world of code and enjoy turning ideas into reality.</p>
 
-                            {/* With [X years/months] of experience in the software development industry, */}<p className=''>I've had the opportunity to work on a variety of projects, ranging from web pages and web applications to backend systems. My expertise includes HTML & CSS,JS,React.JS,Node.Js,J2E,MS.NET,MySQL,DevOps,Git etc, and I'm always eager to embrace new challenges and technologies.</p> 
+                            <p className=''>I've had the opportunity to work on a variety of projects, ranging from web pages and web applications to backend systems. My expertise includes C,C++,C#,HTML & CSS,JS,TS,React.JS,Node.Js,J2E,MS.NET,MySQL,Git,OS,DSA,DevOps etc, and I'm always eager to embrace new challenges and technologies.</p> 
 
                             <p>I believe in the power of collaboration and open-source contributions, and I actively engage with the developer community to learn and share knowledge. When I'm not coding, you can find me exploring the latest tech trends, experimenting with personal projects, or watching animes and shows.</p> 
 
-                            <p className=''>I'm driven by a constant desire to learn, grow, and create meaningful software that makes a positive impact. If you have an exciting project or collaboration opportunity in mind, or simply want to connect and discuss tech, feel free to reach out. Let's code, innovate, and build a better digital world together!</p>
+                            <p className=''>Also doing freelancing projects with both fixed and hourly rate and delevring the projects in no time.</p>
 
                             <div className='row'>
                             <FontAwesomeIcon style={{height:"4vw",width:"4vw,",padding:"20px",marginLeft:"150px"}} icon={faEnvelope} href='' />
