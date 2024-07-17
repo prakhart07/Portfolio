@@ -25,7 +25,7 @@ function AboutMe(){
               <span>Alma mater: Sunbeam Pune(CDAC), RGPV(BE)</span>
               </div>
               <div className='desc'>
-              <span>Current Company:IncubXperts,Pune(M.H.),India.</span>
+              <span>Current Company: IncubXperts,Pune(M.H.),India.</span>
               </div>
               <div className='desc'>
               <span>Designation: Software Engineer(MERN Stack)</span>
